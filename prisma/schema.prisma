@@ -1,0 +1,51 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider     = "mysql"
+  url          = env("DATABASE_URL")
+  relationMode = "prisma"
+}
+
+model Task {
+  id        String   @id @default(cuid())
+  name      String
+  url       String
+  createdAt DateTime @default(now())
+
+  authorId String
+  Site     Site[]
+
+  @@index([authorId])
+}
+
+model Product {
+  id        String   @id @default(cuid())
+  name      String
+  price     Float
+  unit      String
+  imageUrl  String
+  link      String
+  tags      Json
+  siteId    String
+  site      Site     @relation(fields: [siteId], references: [id])
+  createdAt DateTime @default(now())
+
+  @@index([siteId])
+}
+
+model Site {
+  id        String   @id @default(cuid())
+  taskId    String
+  content   String
+  createdAt DateTime @default(now())
+
+  products Product[] // 添加这一行
+  task     Task      @relation(fields: [taskId], references: [id])
+
+  @@index([taskId], name: "task_author_idx")
+}
