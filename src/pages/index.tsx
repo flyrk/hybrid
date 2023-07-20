@@ -1,8 +1,9 @@
 import { type NextPage } from "next";
 import Head from "next/head";
+import { MainModule } from "~/components/home/main";
+// import { SecondModule } from "~/components/home/second";
 // import { SignInButton, useUser } from "@clerk/nextjs";
 // import { api } from "~/utils/api";
-// import Image from "next/image";
 // import { LoadingPage } from "~/components/loading";
 // import Link from "next/link";
 // import { useState } from "react";
@@ -63,31 +64,6 @@ import Head from "next/head";
 //   );
 // };
 
-const MainModule = () => {
-  return (
-    <div className="relative w-full h-full overflow-hidden m-0 flex flex-col justify-center items-center">
-      <div className="p-10 flex items-center">
-        <h2 className="text-white not-italic text-5xl">
-          Hybrid Fashion
-        </h2>
-        <div className="rounded-lg bg-gradient-to-b from-green-basic to-blue-basic text-black text-5xl flex justify-center items-center w-24.25 h-15.25 mx-8">
-          AI
-        </div>
-        <h2 className="text-white not-italic text-5xl">
-          数字模特换装平台
-        </h2>
-      </div>
-      <div className="bg-clip-text bg-gradient-to-b from-blue-back-100 via-green-back via-99% to-blue-back text-transparent text-4xl">
-        让每件衣服都有合适的模特
-      </div>
-      <div className="flex items-center justify-center mt-8">
-        <div className="w-61.5 h-61.5 rounded-full border border-white mr-7.1"></div>
-        <div className="w-61.5 h-61.5 rounded-full border border-white mr-7.1"></div>
-        <div className="w-61.5 h-61.5 rounded-full border border-white"></div>
-      </div>
-    </div>
-  );
-};
 
 const Home: NextPage = () => {
   // const { isLoaded: userLoaded } = useUser();
@@ -104,6 +80,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <MainModule />
+      {/* <SecondModule /> */}
     </>
   );
 };
