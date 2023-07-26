@@ -1,68 +1,12 @@
 import { type NextPage } from "next";
 import Head from "next/head";
 import { MainModule } from "~/components/home/main";
-// import { SecondModule } from "~/components/home/second";
+import { SecondModule } from "~/components/home/second";
 // import { SignInButton, useUser } from "@clerk/nextjs";
 // import { api } from "~/utils/api";
 // import { LoadingPage } from "~/components/loading";
 // import Link from "next/link";
 // import { useState } from "react";
-
-// const CreateProductWizard = () => {
-//   const { user } = useUser();
-
-//   if (!user) return null;
-
-//   return (
-//     <div className="flex gap-3 w-full">
-//       <Image
-//         src={user.profileImageUrl}
-//         alt="Profile image"
-//         className="rounded-full"
-//         width={56}
-//         height={56}
-//       />
-      
-//       <Link href="/tasks">
-//         Go to Task
-//       </Link>
-//     </div>
-//   );
-// };
-
-// const List = () => {
-//   const { data, isLoading: productsLoading } = api.products.getAll.useQuery();
-//   if (productsLoading) return <LoadingPage />;
-//   if (!data) return <div>Error</div>;
-
-//   return (
-//     <div>
-//       {data.map((product) => (
-//         <div key={product.id} className="border-b border-slate-400 p-8">{product.name}</div>
-//       ))}
-//     </div>
-//   );
-// };
-// interface Feature {
-//   id: string;
-//   name: string;
-//   description: string;
-// }
-// interface FeatureItemProps {
-//   item: Feature;
-// }
-// const FeatureItem: React.FC<FeatureItemProps> = ({ item }) => {
-//   return (
-//     <div className="m-6">
-//       <div className="border-green-300 border-2 rounded-lg text-center text-gray-50 py-4 px-8 whitespace-nowrap">
-//         { item.name }
-//       </div>
-//       <p className="text-gray-50 text-center p-4">
-//         { item.description }
-//       </p>
-//     </div>
-//   );
-// };
 
 
 const Home: NextPage = () => {
@@ -80,7 +24,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <MainModule />
-      {/* <SecondModule /> */}
+      <SecondModule />
     </>
   );
 };

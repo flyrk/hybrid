@@ -19,12 +19,12 @@
   dependencies:
     regenerator-runtime "^0.13.11"
 
-"@clerk/backend@^0.25.1":
-  version "0.25.1"
-  resolved "https://mirrors.cloud.tencent.com/npm/@clerk/backend/-/backend-0.25.1.tgz#41b3ded8bafdf20445710c06ed55ac104c0f7978"
-  integrity sha512-941vKzgQ/XnY/YzUx6ZPpe8dEoHlVZ/mUDiXxdwYecwyZ3PHLTh8y+z6m5Imz6HbZ9qoQUOb/2S315dqt7kjFA==
+"@clerk/backend@^0.26.0":
+  version "0.26.0"
+  resolved "https://mirrors.cloud.tencent.com/npm/@clerk/backend/-/backend-0.26.0.tgz#9c3980710b43e5f6cac46e5f8bb8025193516c60"
+  integrity sha512-lFDKVqx2soDvKpynZRtRzb1mg4peE5O5I5H7XIgaGhcchOVPrv+IYR0+rTwlSZkep4xCG12dPIKW+Bjtp6QLKw==
   dependencies:
-    "@clerk/types" "^3.48.0"
+    "@clerk/types" "^3.48.1"
     "@peculiar/webcrypto" "1.4.1"
     "@types/node" "16.18.6"
     cookie "0.5.0"
@@ -33,23 +33,23 @@
     snakecase-keys "5.4.4"
     tslib "2.4.1"
 
-"@clerk/clerk-react@^4.23.0":
-  version "4.23.0"
-  resolved "https://mirrors.cloud.tencent.com/npm/@clerk/clerk-react/-/clerk-react-4.23.0.tgz#ea1e7a412343e7ed39038795744e165cfafecc5b"
-  integrity sha512-VxK9qD0iXxVeAwFJwwE2sPrfgrC8sBWbP/ywLm/5sTGPFmhr/PPf5ApnvFIWZ6fwNWBdA/LQ7IuQrVqRx1zCbA==
+"@clerk/clerk-react@^4.23.1":
+  version "4.23.1"
+  resolved "https://mirrors.cloud.tencent.com/npm/@clerk/clerk-react/-/clerk-react-4.23.1.tgz#06fb0951990f8942d0a3121170c9989e67c92efa"
+  integrity sha512-X0h7I2aPxc3cY7f5ZOaUrrgYjYXSOWbWOCyNuF4rZeW1L6ED8mZEFpQV4+EluUgAomxgGrt8kdMIyMwSsGw3Tg==
   dependencies:
     "@clerk/shared" "^0.20.0"
-    "@clerk/types" "^3.48.0"
+    "@clerk/types" "^3.48.1"
     swr "1.3.0"
     tslib "2.4.1"
 
-"@clerk/clerk-sdk-node@^4.11.1":
-  version "4.11.1"
-  resolved "https://mirrors.cloud.tencent.com/npm/@clerk/clerk-sdk-node/-/clerk-sdk-node-4.11.1.tgz#6739fc57bafff3d76c099edea58094aade72ea23"
-  integrity sha512-8p3sqoLVut+bo3ZVD/1qAovl1/nMBqsGVu5gGleTz3Cf+AlyxSskrKBvkNT3QBo/3nOZI+lS3CfIaHlF51EZsg==
+"@clerk/clerk-sdk-node@^4.12.0":
+  version "4.12.0"
+  resolved "https://mirrors.cloud.tencent.com/npm/@clerk/clerk-sdk-node/-/clerk-sdk-node-4.12.0.tgz#4f40857e70fdd9802a35a3c6be27f070964830ea"
+  integrity sha512-5ViPNDkM+huloBB7O8qArIMXVqqX3JH1dKFQiktLcG/BrlAPmdA0ks9c0Mlnl+W2T1vQlAuH+7QLzpGUk9GtJw==
   dependencies:
-    "@clerk/backend" "^0.25.1"
-    "@clerk/types" "^3.48.0"
+    "@clerk/backend" "^0.26.0"
+    "@clerk/types" "^3.48.1"
     "@types/cookies" "0.7.7"
     "@types/express" "4.17.14"
     "@types/node-fetch" "2.6.2"
@@ -57,15 +57,15 @@
     snakecase-keys "3.2.1"
     tslib "2.4.1"
 
-"@clerk/nextjs@^4.16.4":
-  version "4.22.1"
-  resolved "https://mirrors.cloud.tencent.com/npm/@clerk/nextjs/-/nextjs-4.22.1.tgz#e1c62227070e3f770ebc81aebe6ea839ab6407a7"
-  integrity sha512-jaxa5JJH5gnJRoDI2MkQ3e0Tm+L8YlPBJpzCjvKGi3otosjr7tsbuJaO5bkJib3WnoYRuIJ2x40t4GfaF5o/iQ==
+"@clerk/nextjs@^4.23.0":
+  version "4.23.0"
+  resolved "https://mirrors.cloud.tencent.com/npm/@clerk/nextjs/-/nextjs-4.23.0.tgz#d62f7c5aee691e96a102cbe9b9d83705b37f1a0a"
+  integrity sha512-GOgtMDGJHiOIQ16WIARLUL7uvFV6yP7wHai8fOWtxISQff0dCTTltTvlotwyU4im0sb1xeznZrDyubCRbRIXmg==
   dependencies:
-    "@clerk/backend" "^0.25.1"
-    "@clerk/clerk-react" "^4.23.0"
-    "@clerk/clerk-sdk-node" "^4.11.1"
-    "@clerk/types" "^3.48.0"
+    "@clerk/backend" "^0.26.0"
+    "@clerk/clerk-react" "^4.23.1"
+    "@clerk/clerk-sdk-node" "^4.12.0"
+    "@clerk/types" "^3.48.1"
     path-to-regexp "6.2.1"
     tslib "2.4.1"
 
@@ -78,10 +78,10 @@
     js-cookie "3.0.1"
     swr "1.3.0"
 
-"@clerk/types@^3.48.0":
-  version "3.48.0"
-  resolved "https://mirrors.cloud.tencent.com/npm/@clerk/types/-/types-3.48.0.tgz#5cf35d92ca852508704b22b9723520a005b6ebe0"
-  integrity sha512-whs7s8E5PNBOCy14a80w723dAOStD0cnqY5u7AEq7gGuHuiIYyo1BfqIoIYRh3Oi3Z2cWnFmFNVDN+lHiJ1dFA==
+"@clerk/types@^3.48.1":
+  version "3.48.1"
+  resolved "https://mirrors.cloud.tencent.com/npm/@clerk/types/-/types-3.48.1.tgz#bfcc21d5b3e00789965098cc887cb12621e159a2"
+  integrity sha512-bpSSfqdrw4iYCLlJ8UVN8HWMkA12wOH0lICdjnefPKKm1qO3yb8P5p6jmaCckcwF77unMECAslO2q2ocZcO1QA==
   dependencies:
     csstype "3.1.1"
 

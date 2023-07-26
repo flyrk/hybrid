@@ -1,0 +1,22 @@
+.mainFooter {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 2.5rem;
+}
+.mainFooter::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 46.25rem;
+  height: 1px;
+  background: linear-gradient(179deg, #F49E1E 0%, #F9BD39 39.57%, #F49E1E 100%);
+}
+
+.mainRight {
+  width: 33rem;
+  height: 100%;
+  margin-left: 1.8rem;
+  border-radius: 1.8125rem;
+  background: url(/assets/home_r-result.png), lightgray 50% / cover no-repeat;
+}
