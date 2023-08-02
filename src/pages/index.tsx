@@ -1,5 +1,7 @@
 import { type NextPage } from "next";
 import Head from "next/head";
+import { AboutModule } from "~/components/home/about";
+import { IntroductModule } from "~/components/home/introduct";
 import { MainModule } from "~/components/home/main";
 import { SecondModule } from "~/components/home/second";
 // import { SignInButton, useUser } from "@clerk/nextjs";
@@ -25,6 +27,8 @@ const Home: NextPage = () => {
       </Head>
       <MainModule />
       <SecondModule />
+      <IntroductModule />
+      <AboutModule />
     </>
   );
 };
