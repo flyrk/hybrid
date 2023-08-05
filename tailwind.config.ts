@@ -7,11 +7,13 @@ export default {
       spacing: {
         '2.25': '0.6rem',
         '7.1': '1.8rem',
+        '10': '2.5rem',
         '15.25': '3.8125rem',
         '16.75': '4.1875rem',
-        '18.1': '4.8rem',
+        '18': '4.5rem',
         '24.25': '6.0625rem',
         '27': '6.75rem',
+        '30': '7.5rem',
         '39.25': '9.8125rem',
         '46': '11.5rem',
         '61.5': '15.3125rem',
@@ -35,6 +37,7 @@ export default {
         'black-sub': '#292929',
         'gray-foot': '#F6F6F6',
         'red-sub': '#F93939',
+        'red-sub-100': '#ED4E58',
       },
       fontFamily: {
         'monts': 'Montserrat',
@@ -49,7 +52,9 @@ export default {
       backgroundImage: () => ({
         'gradient-radial': 'radial-gradient(ellipse at center, #FFF 0%, rgba(255, 255, 255, 0.00) 100%)',
         'about-product': 'url("/assets/bg_last.png")',
-        'gradient-foot': 'linear-gradient(180deg, #F00 0%, #F49E1E 41.67%, #F9BD39 66.15%);'
+        'detail-product': 'url("/assets/detail_bg.png")',
+        'gradient-foot': 'linear-gradient(180deg, #F00 0%, #F49E1E 41.67%, #F9BD39 66.15%)',
+        'gradient-btn': 'linear-gradient(180deg, #F49E1E 19.27%, #ED4E58 72.40%)',
       }),
       boxShadow: {
         'custom-light': '0px 4px 4px 0px rgba(0, 0, 0, 0.25)'

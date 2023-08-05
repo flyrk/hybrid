@@ -132,7 +132,7 @@ export const MainModule: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className={styles.mainRight}>
+      <div className={styles.mainLeft}>
       </div>
     </div>
   );
