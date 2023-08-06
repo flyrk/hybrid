@@ -9,7 +9,7 @@ export const PageHeader = () => {
   // if (!userLoaded) return <div />;
 
   return (
-    <header className="fixed top-0 left-0 right-0 w-full h-27 bg-gray-200 shadow-md border-b-2 border-orange-main z-[100]">
+    <header id="hd-header" className="fixed top-0 left-0 right-0 w-full h-27 bg-gray-200 shadow-md border-b-2 border-orange-main z-[100]">
       <div className="conta py-4 px-4 w-full h-full flex justify-between items-center">
         <div className="header-left flex text-slate-50 items-center">
           <Link href="/" className="text-2xl font-bold flex items-center">

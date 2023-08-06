@@ -4,16 +4,16 @@ export const DetailModule = () => {
       <div className="relative w-1/4 h-full">
         <div className="z-10 absolute left-0 top-4">
           <svg xmlns="http://www.w3.org/2000/svg" width="75" height="75" viewBox="0 0 75 75" fill="none">
-            <path d="M65.2156 24.3928C72.4401 39.7139 65.8766 57.9909 50.5554 65.2155C35.2343 72.4401 16.9573 65.8765 9.73271 50.5553C2.50812 35.2342 9.07169 16.9572 24.3929 9.73263C39.714 2.50804 57.991 9.07161 65.2156 24.3928Z" fill="white" stroke="url(#paint0_linear_340_799)" stroke-width="13"/>
+            <path d="M65.2156 24.3928C72.4401 39.7139 65.8766 57.9909 50.5554 65.2155C35.2343 72.4401 16.9573 65.8765 9.73271 50.5553C2.50812 35.2342 9.07169 16.9572 24.3929 9.73263C39.714 2.50804 57.991 9.07161 65.2156 24.3928Z" fill="white" stroke="url(#paint0_linear_340_799)" strokeWidth="13"/>
             <defs>
               <linearGradient id="paint0_linear_340_799" x1="15.288" y1="4.54369" x2="49.3075" y2="111.778" gradientUnits="userSpaceOnUse">
-                <stop stop-color="#E6359F"/>
-                <stop offset="0.141969" stop-color="#F15E2B"/>
-                <stop offset="0.245461" stop-color="#F15E2B"/>
-                <stop offset="0.46875" stop-color="#F5A61D"/>
-                <stop offset="0.6875" stop-color="#FFDC5F"/>
-                <stop offset="0.916667" stop-color="#09ADEA"/>
-                <stop offset="1" stop-color="#8F3A98"/>
+                <stop stopColor="#E6359F"/>
+                <stop offset="0.141969" stopColor="#F15E2B"/>
+                <stop offset="0.245461" stopColor="#F15E2B"/>
+                <stop offset="0.46875" stopColor="#F5A61D"/>
+                <stop offset="0.6875" stopColor="#FFDC5F"/>
+                <stop offset="0.916667" stopColor="#09ADEA"/>
+                <stop offset="1" stopColor="#8F3A98"/>
               </linearGradient>
             </defs>
           </svg>

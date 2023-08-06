@@ -41,6 +41,7 @@ export default {
       },
       fontFamily: {
         'monts': 'Montserrat',
+        'inter': ['Inter', 'sans-serif'],
       },
       borderRadius: {
         'bl': '2.84375rem',
